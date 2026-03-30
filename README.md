@@ -24,18 +24,18 @@ A landing page foi criada com o objetivo de:
 
 A landing page conta com as seguintes seções:
 
-- **Header fixo** com navegação por âncoras
-- **Hero section** com imagem principal e CTA
-- **Sobre a empresa**
-- **Soluções oferecidas**
-- **Como funciona**
-- **Benefícios e diferenciais**
-- **Impacto social**
-- **Galeria de imagens**
-- **Depoimentos**
-- **FAQ**
-- **Chamada final para contato**
-- **Footer institucional**
+- Header fixo com navegação por âncoras
+- Hero section com imagem principal e CTA
+- Sobre a empresa
+- Soluções oferecidas
+- Como funciona
+- Benefícios e diferenciais
+- Impacto social
+- Galeria de imagens
+- Depoimentos
+- FAQ
+- Chamada final para contato
+- Footer institucional
 
 Além disso, a página inclui:
 
@@ -68,31 +68,40 @@ movepet/
 │   ├── layout.tsx
 │   └── page.tsx
 ├── components/
-│   └── move-pet/
-│       ├── about.tsx
-│       ├── benefits.tsx
-│       ├── faq.tsx
-│       ├── final-cta.tsx
-│       ├── footer.tsx
-│       ├── gallery.tsx
-│       ├── header.tsx
-│       ├── hero.tsx
-│       ├── how-it-works.tsx
-│       ├── social-impact.tsx
-│       ├── solutions.tsx
-│       └── testimonials.tsx
+│   ├── move-pet/
+│   ├── ui/
+│   └── theme-provider.tsx
+├── hooks/
+│   ├── use-mobile.ts
+│   └── use-toast.ts
+├── lib/
+│   └── utils.ts
 ├── public/
+│   ├── images/
+│   │   ├── hero-dog.jpg
+│   │   ├── hero-dog2.jpg
+│   │   ├── logo-movepet.png
+│   │   ├── pet-wheelchair-1.jpg
+│   │   ├── pet-wheelchair-2.jpg
+│   │   ├── pet-wheelchair-3.jpg
+│   │   ├── pet-wheelchair-4.jpg
+│   │   ├── pet-wheelchair-5.jpg
+│   │   ├── pet-wheelchair-6.jpg
+│   │   └── pet-wheelchair-7.jpg
 │   ├── icon.png
-│   └── images/
-│       ├── hero-dog.jpg
-│       ├── hero-dog2.jpg
-│       ├── logo-movepet.png
-│       ├── pet-wheelchair-1.jpg
-│       ├── pet-wheelchair-2.jpg
-│       ├── pet-wheelchair-3.jpg
-│       ├── pet-wheelchair-4.jpg
-│       ├── pet-wheelchair-5.jpg
-│       └── pet-wheelchair-6.jpg
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── styles/
+│   └── globals.css
+├── .gitignore
+├── components.json
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
 ├── package.json
-├── tsconfig.json
-└── next.config.mjs
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json

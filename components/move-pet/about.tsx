@@ -59,8 +59,8 @@ export function About() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="rounded-2xl bg-primary p-8 text-primary-foreground shadow-lg">
-                  <p className="text-5xl font-bold">+3</p>
-                  <p className="mt-2 text-primary-foreground/80">Anos de experiência</p>
+                  <p className="text-5xl font-bold">3D</p>
+                  <p className="mt-2 text-primary-foreground/80">Tecnologia aplicada à mobilidade pet</p>
                 </div>
 
                 <div className="rounded-2xl bg-card p-8 border border-border shadow-sm hover:shadow-md transition-shadow">
